@@ -422,7 +422,9 @@ const ContactSection: React.FC = () => {
           />
         </ConditionContainer>
       </BottomContainer>
-      <Button type="submit">Submit</Button>
+      <Button type="submit" className="mt-5 laptop:mt-0">
+        Submit
+      </Button>
     </FormContainer>
   );
 };

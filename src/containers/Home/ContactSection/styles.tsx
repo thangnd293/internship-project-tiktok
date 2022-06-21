@@ -2,11 +2,11 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 export const FormContainer = styled.form`
-  ${tw`w-full grid grid-cols-1 items-start auto-rows-min laptop:grid-cols-12 gap-x-2.5 mb-[94px]`}
+  ${tw`w-full grid grid-cols-1 items-start auto-rows-min laptop:grid-cols-12 gap-x-2.5 my-[64px] laptop:my-[94px]`}
 `;
 
 export const TextContainer = styled.div`
-  ${tw`laptop:col-span-5 laptop:max-w-[265px] flex-[3]`}
+  ${tw`mb-10 laptop:mb-0 laptop:col-span-5 laptop:max-w-[265px] flex-[3]`}
 `;
 
 export const InputContainer = styled.div`
@@ -18,7 +18,7 @@ export const InputWrapper = styled.div`
 `;
 
 export const BottomContainer = styled.div`
-  ${tw`col-span-full grid grid-cols-1 laptop:grid-cols-2 gap-8 pt-20`}
+  ${tw`col-span-full grid grid-cols-1 laptop:grid-cols-2 gap-4 laptop:gap-8 pt-20`}
   grid-auto-rows: 1fr;
 `;
 

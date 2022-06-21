@@ -2,7 +2,7 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 export const AboutContainer = styled.section`
-  ${tw`w-full flex flex-col gap-12 laptop:gap-20 desktop:gap-[5.5rem] laptop:flex-row py-[64px] laptop:py-[84px]`}
+  ${tw`w-full max-w-[1120] flex flex-col gap-12 laptop:gap-20 desktop:gap-[5.5rem] laptop:flex-row laptop:py-[84px] overflow-hidden`}
 `;
 
 export const LeftContainer = styled.div`

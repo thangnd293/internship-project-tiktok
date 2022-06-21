@@ -29,7 +29,7 @@ export const HightlightText = styled.span`
 `;
 
 export const ActionContainer = styled.div`
-  ${tw`flex flex-col items-center  laptop:flex-row laptop:justify-start gap-1 laptop:gap-5 laptop:items-center`}
+  ${tw`flex flex-col items-center laptop:flex-row laptop:justify-start gap-3 laptop:gap-5 laptop:items-center`}
 `;
 
 export const ButtonDownload = styled.button`
@@ -39,7 +39,7 @@ export const ButtonDownload = styled.button`
 `;
 
 export const ButtonDownloadLarge = styled.button`
-  ${tw` flex items-center justify-center w-3/4 h-10 rounded-full border-2 border-solid border-tertiary duration-200
+  ${tw` flex items-center justify-center w-full h-10 rounded-full border-2 border-solid border-tertiary duration-200
   hover:text-white hover:bg-tertiary      
   `}
 `;

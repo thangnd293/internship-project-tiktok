@@ -23,5 +23,5 @@ export const InputComponent = styled.input<{ errorMessage: string }>`
 `;
 
 export const ErrorMessage = styled.p`
-  ${tw`absolute top-[105%] left-6 text-xs text-error`}
+  ${tw`absolute top-[105%] text-xs text-error`}
 `;

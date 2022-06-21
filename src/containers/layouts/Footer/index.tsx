@@ -1,4 +1,3 @@
-import { Logo } from "assets/icons";
 import React from "react";
 import { FacebookIcon, TwitterIcon, YoutubeIcon } from "./icons";
 import {
@@ -7,6 +6,8 @@ import {
   FooterContent,
   LeftContainer,
   Link,
+  LogoContainer,
+  LogoWrapper,
   RightContainer,
   SocialContainer,
 } from "./styles";
@@ -17,14 +18,18 @@ const Footer: React.FC = () => {
     <FooterContainer>
       <FooterContent>
         <LeftContainer>
-          <Logo className="text-white" />
-          <Copyright>{`© ${currentYear}, TiTok For Business`}</Copyright>
+          <LogoContainer>
+            <LogoWrapper className="text-white" />
+            <Copyright>{`© ${currentYear}, TiTok For Business`}</Copyright>
+          </LogoContainer>
+
+          <SocialContainer>
+            <FacebookIcon />
+            <TwitterIcon />
+            <YoutubeIcon />
+          </SocialContainer>
         </LeftContainer>
-        <SocialContainer>
-          <FacebookIcon />
-          <TwitterIcon />
-          <YoutubeIcon />
-        </SocialContainer>
+
         <RightContainer>
           <Link>Privacy Policy</Link>
           <Link>Terms &amp; Conditions</Link>

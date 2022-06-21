@@ -48,5 +48,5 @@ export const Option = styled.li`
 `;
 
 export const ErrorMessage = styled.p`
-  ${tw`absolute top-[106%] left-6 text-xs text-error`}
+  ${tw`absolute top-[106%] text-xs text-error`}
 `;

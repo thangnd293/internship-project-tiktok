@@ -34,5 +34,5 @@ export const NavItem = styled.a`
 `;
 
 export const Button = styled.button`
-  ${tw`rounded-[40px] h-12 border border-solid border-white text-white`}
+  ${tw`w-2/3 mx-auto rounded-[40px] h-12 border border-solid border-white text-white`}
 `;

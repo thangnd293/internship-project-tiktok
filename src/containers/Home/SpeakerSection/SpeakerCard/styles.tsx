@@ -2,11 +2,12 @@ import styled from "styled-components";
 import tw from "twin.macro";
 
 export const CardContainer = styled.section`
-  ${tw`w-full`}
+  ${tw`w-full tablet:max-w-[300px] text-xs laptop:text-md`}
+  flex: 0 0 calc(100vw - 40px)
 `;
 
 export const AvatarContainer = styled.div`
-  ${tw`w-full max-w-[300px] p-[50%] flex items-end justify-center
+  ${tw`w-full p-[50%] flex items-end justify-center
     bg-no-repeat bg-bottom bg-[#CBFFFD] bg-contain
   `}
 `;

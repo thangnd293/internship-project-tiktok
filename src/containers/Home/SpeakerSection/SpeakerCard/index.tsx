@@ -11,11 +11,12 @@ import {
 
 interface ISpeakerCardProps {
   speaker: ISpeaker;
+  className?: string;
 }
 
-const SpeakerCard: React.FC<ISpeakerCardProps> = ({ speaker }) => {
+const SpeakerCard: React.FC<ISpeakerCardProps> = ({ speaker, className }) => {
   return (
-    <CardContainer>
+    <CardContainer className={className}>
       <AvatarContainer style={{ backgroundImage: `url(${speaker.image})` }} />
       <Title>{speaker.title}</Title>
       <Description>{speaker.description}</Description>

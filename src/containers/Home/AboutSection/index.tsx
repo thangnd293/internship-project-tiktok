@@ -37,7 +37,7 @@ const AboutSection: React.FC = () => {
               Speaker: Seungyeon Kim, General Manager, Global Business
               Solutions, SEA, TikTok
             </SubTitle>
-            <Paragraph className=" mb-10">
+            <Paragraph className="mb-5 laptop:mb-10">
               Jump right into the new age of entertainment with stories and
               insights on the trends that have taken the region by storm. Kpop
               star JEON SOMI joins the fun as we reveal exciting new products

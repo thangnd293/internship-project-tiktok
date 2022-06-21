@@ -40,7 +40,7 @@ const LandingSection = () => {
         </Paragraph>
         <ActionContainer>
           <Button
-            className={isMobile ? "w-3/4" : ""}
+            className={isMobile ? "w-full" : ""}
             variant="primary"
             size="medium"
             onClick={() => {}}
